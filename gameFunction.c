@@ -116,7 +116,7 @@ void play(char name [30])
 
 	srand( time( NULL ));
 	int r ;
-	r= rand() % 10 +1;
+	r= rand() % 100 +1;
     int correct = 0; 
     int num; 
     int counter = 0; 
